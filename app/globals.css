@@ -2,7 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+body {
   padding: 0;
   margin: 0;
+  background: rgb(245, 247, 237);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 247, 237, 1) 0%,
+    rgba(239, 232, 242, 1) 35%,
+    rgba(94, 210, 153, 1) 100%
+  );
 }
