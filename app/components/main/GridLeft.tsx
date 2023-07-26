@@ -1,7 +1,7 @@
 import React from "react";
-import { Toggle } from "../buttons/Toggle";
+import { Toggle } from "../utils/Toggle";
 import { IoMdWarning } from "react-icons/io";
-import { Graph } from "../buttons/Graph";
+import { Graph } from "../utils/Graph";
 
 export const GridLeft = () => {
   return (

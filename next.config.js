@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  reactStrictMode: true,
+  env: {
+    MAPBOX_ACCESS_TOKEN: "[MAPBOX_TOKEN]",
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
